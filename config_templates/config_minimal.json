@@ -1,0 +1,58 @@
+{
+    "meterId": "0901454dxxxxxxyyyyyy",
+    "meterPath": "StatusSNS.SML.Meter_id",
+    "tasmotaIp": "192.168.170.24",
+    "queryInterval": 2,
+    "productName": "EMH eHZ",
+    "deviceInstance": 0,
+    "mappings": [
+        {
+            "dBusPath": "/Ac/Power",
+            "dataPath": "StatusSNS.SML.Power_cur",
+            "scale": 1,
+            "digits": 0,
+            "unit": "W",
+            "initialValue": 0
+        },
+        {
+            "dBusPath": "/Ac/Energy/Forward",
+            "dataPath": "StatusSNS.SML.Total_in",
+            "scale": 1,
+            "digits": 3,
+            "unit": "kWh",
+            "initialValue": 0
+        },
+        {
+            "dBusPath": "/Ac/Energy/Reverse",
+            "dataPath": "StatusSNS.SML.Total_out",
+            "scale": 1,
+            "digits": 3,
+            "unit": "kWh",
+            "initialValue": 0
+        },
+        {
+            "dBusPath": "/Ac/L1/Power",
+            "dataPath": "StatusSNS.SML.Power_cur",
+            "scale": 0.3333333,
+            "digits": 0,
+            "unit": "W",
+            "initialValue": 0
+        },
+        {
+            "dBusPath": "/Ac/L2/Power",
+            "dataPath": "StatusSNS.SML.Power_cur",
+            "scale": 0.3333333,
+            "digits": 0,
+            "unit": "W",
+            "initialValue": 0
+        },
+        {
+            "dBusPath": "/Ac/L3/Power",
+            "dataPath": "StatusSNS.SML.Power_cur",
+            "scale": 0.3333333,
+            "digits": 0,
+            "unit": "W",
+            "initialValue": 0
+        }
+    ]
+}
